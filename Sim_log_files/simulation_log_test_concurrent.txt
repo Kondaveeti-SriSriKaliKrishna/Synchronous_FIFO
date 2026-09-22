@@ -1,0 +1,28 @@
+test_concurrent_wr_rd Simulation_log
+
+# time=36000 WRITE[0] : data=36, count=1, full=0, almost_full=0
+# time=46000 WRITE[1] : data=129, count=2, full=0, almost_full=0
+# time=56000 WRITE[2] : data=9, count=3, full=0, almost_full=0
+# time=66000 WRITE[3] : data=99, count=4, full=0, almost_full=0
+# time=76000 WRITE[4] : data=13, count=5, full=0, almost_full=0
+# time=86000 WRITE[5] : data=141, count=6, full=0, almost_full=0
+# time=96000 WRITE[6] : data=101, count=7, full=0, almost_full=0
+# time=106000 WRITE[7] : data=18, count=8, full=0, almost_full=0
+# time=126000 WRITE[0] : data=1, count=8, full=0, almost_full=0
+# time=126000 READ[0] : data=36, count=8, empty=0, almost_empty=0
+# time=136000 WRITE[1] : data=13, count=8, full=0, almost_full=0
+# time=136000 READ[1] : data=129, count=8, empty=0, almost_empty=0
+# time=146000 WRITE[2] : data=118, count=8, full=0, almost_full=0
+# time=146000 READ[2] : data=9, count=8, empty=0, almost_empty=0
+# time=156000 WRITE[3] : data=61, count=8, full=0, almost_full=0
+# time=156000 READ[3] : data=99, count=8, empty=0, almost_empty=0
+# time=166000 WRITE[4] : data=237, count=8, full=0, almost_full=0
+# time=166000 READ[4] : data=13, count=8, empty=0, almost_empty=0
+# time=176000 WRITE[5] : data=140, count=8, full=0, almost_full=0
+# time=176000 READ[5] : data=141, count=8, empty=0, almost_empty=0
+# time=186000 WRITE[6] : data=249, count=8, full=0, almost_full=0
+# time=186000 READ[6] : data=101, count=8, empty=0, almost_empty=0
+# time=196000 WRITE[7] : data=198, count=8, full=0, almost_full=0
+# time=196000 READ[7] : data=18, count=8, empty=0, almost_empty=0
+# ** Note: $finish    : tb_synchronous_fifo.v(119)
+#    Time: 220 ns  Iteration: 0  Instance: /tb

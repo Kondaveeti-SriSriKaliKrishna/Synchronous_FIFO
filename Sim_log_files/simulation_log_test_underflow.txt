@@ -1,0 +1,37 @@
+test_underflow  Simulation_log
+
+# time=36000 WRITE[0] : data=36, count=1, full=0, almost_full=0
+# time=46000 WRITE[1] : data=129, count=2, full=0, almost_full=0
+# time=56000 WRITE[2] : data=9, count=3, full=0, almost_full=0
+# time=66000 WRITE[3] : data=99, count=4, full=0, almost_full=0
+# time=76000 WRITE[4] : data=13, count=5, full=0, almost_full=0
+# time=86000 WRITE[5] : data=141, count=6, full=0, almost_full=0
+# time=96000 WRITE[6] : data=101, count=7, full=0, almost_full=0
+# time=106000 WRITE[7] : data=18, count=8, full=0, almost_full=0
+# time=116000 WRITE[8] : data=1, count=9, full=0, almost_full=0
+# time=126000 WRITE[9] : data=13, count=10, full=0, almost_full=0
+# time=136000 WRITE[10] : data=118, count=11, full=0, almost_full=0
+# time=146000 WRITE[11] : data=61, count=12, full=0, almost_full=1
+# time=156000 WRITE[12] : data=237, count=13, full=0, almost_full=1
+# time=166000 WRITE[13] : data=140, count=14, full=0, almost_full=1
+# time=176000 WRITE[14] : data=249, count=15, full=0, almost_full=1
+# time=186000 WRITE[15] : data=198, count=16, full=1, almost_full=1
+# time=206000 READ[0] : data=36, count=15, empty=0, almost_empty=0
+# time=216000 READ[1] : data=129, count=14, empty=0, almost_empty=0
+# time=226000 READ[2] : data=9, count=13, empty=0, almost_empty=0
+# time=236000 READ[3] : data=99, count=12, empty=0, almost_empty=0
+# time=246000 READ[4] : data=13, count=11, empty=0, almost_empty=0
+# time=256000 READ[5] : data=141, count=10, empty=0, almost_empty=0
+# time=266000 READ[6] : data=101, count=9, empty=0, almost_empty=0
+# time=276000 READ[7] : data=18, count=8, empty=0, almost_empty=0
+# time=286000 READ[8] : data=1, count=7, empty=0, almost_empty=0
+# time=296000 READ[9] : data=13, count=6, empty=0, almost_empty=0
+# time=306000 READ[10] : data=118, count=5, empty=0, almost_empty=0
+# time=316000 READ[11] : data=61, count=4, empty=0, almost_empty=1
+# time=326000 READ[12] : data=237, count=3, empty=0, almost_empty=1
+# time=336000 READ[13] : data=140, count=2, empty=0, almost_empty=1
+# time=346000 READ[14] : data=249, count=1, empty=0, almost_empty=1
+# time=356000 READ[15] : data=198, count=0, empty=1, almost_empty=1
+# rd_error = 1
+# ** Note: $finish    : tb_synchronous_fifo.v(119)
+#    Time: 400 ns  Iteration: 0  Instance: /tb

@@ -1,0 +1,20 @@
+test_full Simulation_log
+
+time=36000 WRITE[0] : data=36, count=1, full=0, almost_full=0
+# time=46000 WRITE[1] : data=129, count=2, full=0, almost_full=0
+# time=56000 WRITE[2] : data=9, count=3, full=0, almost_full=0
+# time=66000 WRITE[3] : data=99, count=4, full=0, almost_full=0
+# time=76000 WRITE[4] : data=13, count=5, full=0, almost_full=0
+# time=86000 WRITE[5] : data=141, count=6, full=0, almost_full=0
+# time=96000 WRITE[6] : data=101, count=7, full=0, almost_full=0
+# time=106000 WRITE[7] : data=18, count=8, full=0, almost_full=0
+# time=116000 WRITE[8] : data=1, count=9, full=0, almost_full=0
+# time=126000 WRITE[9] : data=13, count=10, full=0, almost_full=0
+# time=136000 WRITE[10] : data=118, count=11, full=0, almost_full=0
+# time=146000 WRITE[11] : data=61, count=12, full=0, almost_full=1
+# time=156000 WRITE[12] : data=237, count=13, full=0, almost_full=1
+# time=166000 WRITE[13] : data=140, count=14, full=0, almost_full=1
+# time=176000 WRITE[14] : data=249, count=15, full=0, almost_full=1
+# time=186000 WRITE[15] : data=198, count=16, full=1, almost_full=1
+# ** Note: $finish    : tb_synchronous_fifo.v(119)
+#    Time: 210 ns  Iteration: 0  Instance: /tb
