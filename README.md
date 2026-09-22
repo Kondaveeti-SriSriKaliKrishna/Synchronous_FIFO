@@ -1,6 +1,5 @@
 # Synchronous FIFO — RTL Design & Verification
 
-![Synchronous FIFO](Timing_waves/test_concurrent_wr_rd.png)
 
 ## Overview
 
