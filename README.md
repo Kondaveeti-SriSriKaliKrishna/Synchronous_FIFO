@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project implements and verifies a **parameterized Synchronous FIFO (First-In-First-Out)** using Verilog/SystemVerilog.
+This project implements and verifies a **parameterized Synchronous FIFO (First-In-First-Out)** using Verilog.
 
 The FIFO uses a single clock for both read and write operations and provides status indications for **full, empty, almost-full, and almost-empty** conditions. The design also detects **write overflow and read underflow** conditions.
 
